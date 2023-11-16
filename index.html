@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="header-text">
+        <h2>SOLSYSTEM</h2>
+        <h4>SOLARIS</h4>
+    </div>
+
+    <div class="solsystem-box">
+
+        <div id="planet" class="sun"> </div>
+      
+    <div class="planet-solsystem">
+        
+        <div id="planet" class="merkurius"> 
+            <img src="img/Ellipse 2.svg"></div>
+        <div id="planet" class="venus"> 
+            <img src="img/Ellipse 3.svg" alt=""></div>
+        <div id="planet" class="jorden"> 
+            <img src="img/Ellipse 4.svg" alt=""></div>
+        <div id="planet" class="mars"> 
+            <img src="img/Ellipse 5.svg" alt=""></div>
+        <div id="planet" class="jupiter">
+            <img src="img/Ellipse 6.svg" alt=""></div>
+        <div id="planet" class="saturnus">
+            <img src="img/Ellipse 7.svg" class="">
+            <img src="img/Ellipse 10.svg" class="line"> </div>
+        <div id="planet" class="uranus">
+            <img src="img/Ellipse 8.svg" alt=""></div>
+        <div id="planet" class="neptunus">
+            <img src="img/Ellipse 9.svg" alt="">
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="information">
+        <h1 class="name"></h1>
+        <h3 class="latinName"></h3>
+        <p class="description"></p>
+        <div class="info">
+            <div>
+                <p class="">OMKRETS</p>
+                <p class="permeter"></p>
+            </div>
+
+        <div>
+            <p class="">KM FRÅN SOLEN</p>
+            <p class="distance"></p>
+        </div>
+
+        <div>
+            <p class="">MAX TEMPERATURE</p>
+            <p class="max_temp"></p>
+        </div>
+
+        <div>
+            <p class="">MIN TEMPERATURE</p>
+            <p class="min_temp"></p>
+        </div>
+        
+        <div>
+            <p class="">MOON</p>
+            <p class="moon"></p>
+        </div>
+ </div>
+<button id="goBackButton">Tillbaka</button>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        var goBackButton = document.getElementById('goBackButton');
+        goBackButton.addEventListener('click', function () {
+        window.location.href = 'index.html';
+        });
+    });
+      </script>
+    <script src="index.js"></script>
+</body>
+</html>
